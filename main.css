@@ -32,12 +32,12 @@
          font-style: normal;
 }
 /* CSS de base */
+
 body{
     background-color: black;
     margin: 0px 3%;
     padding: 0px;
     transition: 1000ms;
-    margin-bottom: 5000px;
 }
 
 h1{
@@ -81,6 +81,13 @@ button:hover{
     text-decoration: underline;
 }
 
+video{
+    width: 35vw;
+    height: auto;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
 
 /* NavBar */
 
