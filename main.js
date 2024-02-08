@@ -1,0 +1,16 @@
+let progressbar = document.getElementById("progressbar")
+let body = document.body
+let html = document.documentElement
+
+
+document.addEventListener("scroll", (event) => {
+  body = document.body
+  html = document.documentElement
+  lastKnownScrollPosition = window.scrollY;
+  height = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight );
+  windowheight = window.innerHeight
+  
+  progress = (lastKnownScrollPosition + windowheight) / height * 100
+  
+  progressbar.style.width = `${progress}%`;
+});
