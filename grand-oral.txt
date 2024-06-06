@@ -1,0 +1,22 @@
+FLOPS : unité de mesure de la rapidité de calcul d'un système
+
+
+--- INTRO ---
+
+    Présentation des réseaux de neurones,
+organisé en couches (input, hidden, output). Noeuds reliés par des connexions (avec des poids)
+    Utilité comparé a d'autres méthodes,
+par exemple permet la reconnaissance d'image et de vidéo
+    Pourquoi le cout est important,
+machines trop couteuses. electricité et temps d'entrainement important
+
+--- PARTIE 1 - Ce qui influance le cout ---
+
+1. L'architecture du réseau de neurones,
+supprimer les Noeuds les moins utiles
+baisser la précision des poids
+
+
+--- Partie 2 ---
+
+--- Partie 3 ---
