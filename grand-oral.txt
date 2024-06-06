@@ -17,8 +17,8 @@ Plus le réseau est grand plus il prendra de la place sur les machines, et plus 
 
 2.Qualité de l'entrainement
 Grand volume de données : plus de temps d'entraînement, de ressources de calcul, et d'espace de stockage.
-Données de haute qualité : plus efficace, réduisant le temps et les ressources nécessaires, tout en produisant des modèles plus performants.
-Données de mauvaise qualité : Augmentent le besoin de prétraitement et peuvent mener à des cycles d'entraînement plus longs et moins efficaces, augmentant les coûts globaux.
+Données de haute qualité : plus efficace, réduisant le temps et les ressources nécessaires, -> modèles plus performants.
+ mauvaise qualité :besoin de prétraitement, cycles d'entraînement plus longs et moins efficaces, augmentant les coûts globaux.
 
 --- PARTIE 2  - Comment l'optimiser---
 Type de modèle : Différents types de réseaux (CNN, RNN, Transformers) ont des exigences de calcul variées.
