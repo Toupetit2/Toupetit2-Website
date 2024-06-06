@@ -12,11 +12,22 @@ machines trop couteuses. electricité et temps d'entrainement important
 
 --- PARTIE 1 - Ce qui influance le cout ---
 
-1. L'architecture du réseau de neurones,
-supprimer les Noeuds les moins utiles
-baisser la précision des poids
+1. L'architecture du réseau de neurones
+Plus le réseau est grand plus il prendra de la place sur les machines, et plus il va consommer
 
+2.Qualité de l'entrainement
+Grand volume de données : plus de temps d'entraînement, de ressources de calcul, et d'espace de stockage.
+Données de haute qualité : plus efficace, réduisant le temps et les ressources nécessaires, tout en produisant des modèles plus performants.
+Données de mauvaise qualité : Augmentent le besoin de prétraitement et peuvent mener à des cycles d'entraînement plus longs et moins efficaces, augmentant les coûts globaux.
 
---- Partie 2 ---
+--- PARTIE 2  - Comment l'optimiser---
+Type de modèle : Différents types de réseaux (CNN, RNN, Transformers) ont des exigences de calcul variées.
+Dropout, pruning, quantization, etc. : Aident à simplifier le modèle et à réduire les besoins en calcul.
+baisser la précision des poids (32bits -> 8bits)
 
+mini-batch, entrainement sur moins de données a la fois
+stopper l'entrainement dès qu'il n'y a plus d'amélioration significative
+
+Matériel utilisé : Utilisation de GPU, TPU, ou CPU influence la vitesse et le coût de l'entraînement.
 --- Partie 3 ---
+exemple, prédire un chiffre, base de données MNIST (image noir et blanc 28x28)
