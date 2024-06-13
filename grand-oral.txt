@@ -1,17 +1,20 @@
 FLOPS : unité de mesure de la rapidité de calcul d'un système
 
+Comment optimiser le coût des réseaux de neuronnes ?
+
 
 --- INTRO ---
+    les réseaux de neurones m'intéressent depuis quelques temps, en NSI j'ai eu un cours sur la complexité donc je me suis posé la question du cout, sur ces algorithmes.
 
     Présentation des réseaux de neurones,
 organisé en couches (input, hidden, output). Noeuds reliés par des connexions (avec des poids)
     Utilité comparé a d'autres méthodes,
 par exemple permet la reconnaissance d'image et de vidéo
     Pourquoi le cout est important,
-machines trop couteuses. electricité et temps d'entrainement important
+machines trop couteuses. par exemple chatGPT fonctionne sur des machines a plus de 20000€
+electricité et temps d'entrainement important
 
 --- PARTIE 1 - Ce qui influance le cout ---
-
 1. L'architecture du réseau de neurones
 Plus le réseau est grand plus il prendra de la place sur les machines, et plus il va consommer
 
@@ -29,5 +32,15 @@ mini-batch, entrainement sur moins de données a la fois
 stopper l'entrainement dès qu'il n'y a plus d'amélioration significative
 
 Matériel utilisé : Utilisation de GPU, TPU, ou CPU influence la vitesse et le coût de l'entraînement.
+
 --- Partie 3 ---
 exemple, prédire un chiffre, base de données MNIST (image noir et blanc 28x28)
+
+
+complexité :
+
+tri
+    insertion
+    selection -> quadratique (n**2)
+
+    fusion -> n*log(n)
