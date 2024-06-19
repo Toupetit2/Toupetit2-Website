@@ -2,9 +2,9 @@
 
 @font-face {
     font-family: 'CabinetGrotesk-Thin';
-    src: url('../fonts/CabinetGrotesk-Thin.woff2') format('woff2'),
-         url('../fonts/CabinetGrotesk-Thin.woff') format('woff'),
-         url('../fonts/CabinetGrotesk-Thin.ttf') format('truetype');
+    src: url('/fonts/CabinetGrotesk-Thin.woff2') format('woff2'),
+         url('/fonts/CabinetGrotesk-Thin.woff') format('woff'),
+         url('/fonts/CabinetGrotesk-Thin.ttf') format('truetype');
          font-weight: 100;
          font-display: swap;
          font-style: normal;
@@ -13,9 +13,9 @@
   
 @font-face {
     font-family: 'CabinetGrotesk-Regular';
-    src: url('../fonts/CabinetGrotesk-Regular.woff2') format('woff2'),
-         url('../fonts/CabinetGrotesk-Regular.woff') format('woff'),
-         url('../fonts/CabinetGrotesk-Regular.ttf') format('truetype');
+    src: url('/fonts/CabinetGrotesk-Regular.woff2') format('woff2'),
+         url('/fonts/CabinetGrotesk-Regular.woff') format('woff'),
+         url('/fonts/CabinetGrotesk-Regular.ttf') format('truetype');
          font-weight: 400;
          font-display: swap;
          font-style: normal;
@@ -127,7 +127,7 @@ nav li::after{
     content: "";
     position: absolute;
     background-color: rgb(255, 255, 255);
-    width: 100px;
+    width: 50px;
     height: 3px;
     border-radius: 2px;
     left: 0;
@@ -150,4 +150,11 @@ nav ul{
     align-items: center;
 }
 
+a{
+    text-decoration: none;
+    color: #fff;
+}
 
+b{
+    font-family: 'CabinetGrotesk-Extrabold'
+}

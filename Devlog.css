@@ -1,6 +1,7 @@
 .Dlog-grid{
-    grid-column: 2;
-    height: 200px;
+    display: grid;
+    grid-template-columns: 3;
+    grid-gap: 20px;
 }
 
 img{
